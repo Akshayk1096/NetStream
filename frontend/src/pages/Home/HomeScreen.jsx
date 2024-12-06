@@ -5,7 +5,7 @@ import { Play, Info } from "lucide-react"
 import useGetTrendContent from "../../hooks/useGetTrendContent"
 import { movie_categories, tv_categories, original_img_base_url } from "../../../utils/constant"
 import { useContentStore } from "../../store/content"
-import Movieslider from "../../components/Movieslider"
+import Movieslider from "../../components/MovieSlider"
 import { useState } from "react"
 
 const HomeScreen = () => {
